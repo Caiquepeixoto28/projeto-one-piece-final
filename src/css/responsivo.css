@@ -37,6 +37,15 @@
  }
 
  @media (max-width: 425px) {
+   main::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-height: 100vh;
+        width: 80vw;
+        background: none;
+    }
     main .personagem .imagem {
         height: auto;
     }
